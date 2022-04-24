@@ -1,0 +1,135 @@
+[
+    {
+        "student_id": "s1",
+        "firstname": "John",
+        "lastname": "Larson",
+        "mail": "JohnLarson@student.edu",
+        "gender": "m",
+        "active": true,
+        
+        "courses": [
+            {
+                "course_id" : "c3",
+                "semester": "winter",
+                "year": 2020,
+                "course_name" : "French cuisine",
+                
+                "status" : "passed",
+                "grades" : {
+                    "partial" : [4,5,4,5],
+                    "average" : 4.5,
+                    "final" : 5
+                }
+            },
+            {
+                "course_id" : "c1",
+                "semester": "winter",
+                "year": 2020,
+                "course_name" : "Linear algebra",
+                
+                "status" : "failed",
+                "grades" : {
+                    "partial" : [2,2,3,3],
+                    "average" : 2.5,
+                    "final" : 2
+                }
+            },
+            {
+                "course_id" : "c1",
+                "semester": "winter",
+                "year": 2021,
+                "course_name" : "Linear algebra",
+                
+                "status" : "in_progress",
+                "grades" : {
+                    "partial" : [4,2,3,5],
+                    "average" : 3.5,
+                    "final" : null
+                }
+            }
+                
+        ],
+        
+        "total_ects" : 5
+    },
+    {
+        "student_id": "s2",
+        "firstname": "Darius",
+        "lastname": "Jannner",
+        "mail": "DariusJannner@student.edu",
+        "gender": "m",
+        "active": true,
+        
+        "courses": [
+            {
+                "course_id" : "c2",
+                "semester": "spring",
+                "year": 2020,
+                "course_name" : "Bread making",
+                
+                "status" : "passed",
+                "grades" : {
+                    "partial" : [5,5,5],
+                    "average" : 5,
+                    "final" : 5
+                }
+            },
+            {
+                "course_id" : "c3",
+                "semester": "winter",
+                "year": 2020,
+                "course_name" : "French cuisine",
+                
+                "status" : "passed",
+                "grades" : {
+                    "partial" : [5,5,5],
+                    "average" : 5,
+                    "final" : 5
+                }
+            },
+            {
+                "course_id" : "c1",
+                "semester": "winter",
+                "year": 2021,
+                "course_name" : "Linear algebra",
+                
+                "status" : "in_progress",
+                "grades" : {
+                    "partial" : [2,3,5],
+                    "average" : 3.33,
+                    "final" : null
+                }
+            }
+                
+        ],
+        
+        "total_ects" : 10
+    },
+    {
+        "student_id": "s3",
+        "firstname": "Miranda",
+        "lastname": "Linkage",
+        "mail": "MirandaLinkage@student.edu",
+        "gender": "f",
+        "active": true,
+        
+        "courses": [
+            {
+                "course_id" : "c4",
+                "semester": "spring",
+                "year": 2020,
+                "course_name" : "Statistics",
+                
+                "status" : "passed",
+                "grades" : {
+                    "partial" : [4,4,4,4,5],
+                    "average" : 4.2,
+                    "final" : 4
+                }
+            }
+                
+        ],
+        
+        "total_ects" : 2
+    }
+]

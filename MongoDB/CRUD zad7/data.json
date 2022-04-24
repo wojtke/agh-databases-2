@@ -1,0 +1,112 @@
+{
+    "students": [
+        {
+            "firstname": "Mike",
+            "lastname": "Bike",
+            "student_id": "420",
+            "email": "MikeBike@email.com",
+            "gender" : "m",
+            "student_status_active" : true,
+            "address": {
+                "street" : "Long st.",
+                "city" : "Cracow",
+                "zip_code" : "13-123",
+            },
+            "courses" : [
+                {
+                    "course_id" : 111,
+                    "grade" : 5.0
+                },
+                {
+                    "course_id" : 222,
+                    "grade" : 5.0
+                },
+                {
+                    "course_id" : 333,
+                    "grade" : 4.0
+                }
+            ]
+        },
+        {
+            "firstname": "Victor",
+            "lastname": "Car",
+            "student_id": "421",
+            "email": "VictorCar@email.com",
+            "gender" : "m",
+            "student_status_active" : true,
+            "address": {
+                "street" : "Short st.",
+                "city" : "Cracow",
+                "zip_code" : "13-123",
+            },
+            "courses" : [
+                {
+                    "course_id" : 111,
+                    "grade" : 5.0
+                },
+                {
+                    "course_id" : 222,
+                    "grade" : 3.5
+                },
+                {
+                    "course_id" : 333,
+                    "grade" : 3.0
+                }
+            ]
+        },
+        {
+            "firstname": "Monica",
+            "lastname": "Boat",
+            "student_id": "422",
+            "email": "MonicaBoat@email.com",
+            "gender" : "f",
+            "student_status_active" : false,
+            "address": {
+                "street" : "That st.",
+                "city" : "Cracow",
+                "zip_code" : "13-123",
+            },
+            "courses" : [
+                {
+                    "course_id" : 111,
+                    "grade" : 3.0
+                },
+                {
+                    "course_id" : 222,
+                    "grade" : 2.0
+                },
+            ]
+        }
+    ],
+    "courses" : [
+        { 
+            "_id" : "111", 
+            "name" : "Linear Algebra", 
+            "semester" : "fall 2020", 
+            "students" : [
+                "420", 
+                "421", 
+                "422"
+            ]
+        }
+        { 
+            "_id" : "222", 
+            "name" : "Cheese Theory", 
+            "semester" : "fall 2020", 
+            "students" : [
+                "420", 
+                "421", 
+                "422"
+            ]
+        }
+        { 
+            "_id" : "333", 
+            "name" : "Computational management", 
+            "semester" : "spring 2021", 
+            "students" : [
+                "420", 
+                "421"
+            ]
+        }
+    ]
+}

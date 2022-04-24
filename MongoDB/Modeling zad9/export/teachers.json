@@ -1,0 +1,2 @@
+{ "_id" : { "$oid" : "6265b25f16372284c31e2560" }, "teacher_id" : "t2", "firstname" : "John", "lastname" : "Doe", "mail" : "JohnDoe@teacher.edu", "gender" : "m", "active" : true, "courses_taught" : [ "c1", "c2", "c4" ] }
+{ "_id" : { "$oid" : "6265b25f16372284c31e2561" }, "teacher_id" : "t1", "firstname" : "Rick", "lastname" : "Rock", "mail" : "RickRock@teacher.edu", "gender" : "m", "active" : true, "courses_taught" : [ "c3", "c4" ] }

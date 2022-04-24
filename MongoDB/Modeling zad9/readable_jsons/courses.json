@@ -1,0 +1,66 @@
+[
+    {
+        "course_id": "c1",
+        "name" : "Linear algebra",
+        "ects" : 12,
+        "course_instances" : [
+            {
+                "semester": "winter",
+                "year": 2021,
+                "teacher": "t2"
+            },
+            {
+                "semester": "winter",
+                "year": 2020,
+                "teacher": "t1"
+            },
+            
+        ]
+    },
+    {
+        "course_id": "c2",
+        "name" : "Bread making",
+        "ects" : 5,
+        "course_instances" : [
+            {
+                "semester": "spring",
+                "year": 2020,
+                "teacher": "t1"
+            },
+        ]
+    },
+    {
+        "course_id": "c3",
+        "name" : "French cuisine",
+        "ects" : 5,
+        "course_instances" : [
+            {
+                "semester": "winter",
+                "year": 2020,
+                "teacher": "t2"
+            },
+        ]
+    },
+    {
+        "course_id": "c4",
+        "name" : "Statistics",
+        "ects" : 2,
+        "course_instances" : [
+            {
+                "semester": "spring",
+                "year": 2020,
+                "teacher": "t1"
+            },
+            {
+                "semester": "winter",
+                "year": 2020,
+                "teacher": "t2"
+            },
+            {
+                "semester": "winter",
+                "year": 2021,
+                "teacher": "t2"
+            },
+        ]
+    }
+]

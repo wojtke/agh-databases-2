@@ -1,0 +1,23 @@
+[
+    {
+        "course_id": "c2",
+        "date": "2022-12-12",
+        "subject": "Keepin it cool",
+        "teacher_id": "t2",
+        
+        "attendance": ["s1", "s2"],
+        
+        "reviews": [
+            {
+                "student_id": "s1",
+                "rating": 4,
+                "comment":"Damn good!"
+            },
+            {
+                "student_id": "s2",
+                "rating": 2,
+                "comment":"Wacky, no bread..."
+            }
+        ]
+    }
+]
